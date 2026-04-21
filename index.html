@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My task manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="bg-gray-200 font-bold">
+      <h1 class="text-blue-600 text-4xl pt-6 pl-10">Task management</h1>
+      <h3 class="text-green-700 text-2xl pl-12">welcome</h3>
+    </section>
+
+    <section class="bg-green-600 font-bold text-center">
+      <h1 class="text-5xl text-white pt-5">about tasks</h1>
+      <div
+        class="grid max-w-6xl mx-auto text-green-800 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 py-10"
+      >
+        <div class="bg-gray-200 rounded-lg shadow-md hover:shadow-lg p-2">
+          <h2 class="text-2xl">management</h2>
+          <p class="text-left">
+            this ensure all tasks are conducted in the proper way as it has been
+            arranged in all issues occured
+          </p>
+        </div>
+        <div class="bg-gray-200 rounded-lg shadow-md hover:shadow-lg p-2">
+          <h2 class="text-2xl">Task addition</h2>
+          <p class="text-left">
+            This concern with the addition of the new tasks in the system that
+            is needed to be conducted
+          </p>
+        </div>
+        <div class="bg-gray-200 rounded-lg shadow-md hover:shadow-lg p-2">
+          <h2 class="text-2xl">delete tasks</h2>
+          <p class="text-left">
+            for the completed tasks the must be removed in the system in order
+            to allow new tasks to enter for excution
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-center">
+      <form
+        class="w-full max-w-2xl bg-gray-200 border rounded flex flex-col mt-10"
+      >
+        <input
+          type="text"
+          name="email"
+          class="border rounded m-2 p-2 h-12"
+          placeholder="Enter email"
+        />
+        <input
+          type="text"
+          name="password"
+          class="border rounded m-2 p-2"
+          placeholder="Enter password"
+        />
+        <button type="submit" class="bg-blue-500 border rounded m-2 p-2">
+          login
+        </button>
+      </form>
+    </section>
+  </body>
+</html>
